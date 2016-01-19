@@ -3,10 +3,23 @@
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
-.alert-notice {
+.alert-notice,
+.alert-alert {
   color: #8a6d3b;
   background-color: #fcf8e3;
   border-color: #faebcc;
+}
+
+.flash-close {
+	float: right;
+	color: #000;
+	text-decoration: none;
+	font-size: 20px;
+  line-height: 1;
+  &:hover {
+  	text-decoration: none;
+  	opacity: .8;
+  }
 }
 
 body {
